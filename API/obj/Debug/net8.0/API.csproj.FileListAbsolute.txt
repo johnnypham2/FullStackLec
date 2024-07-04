@@ -134,3 +134,4 @@ C:\Users\Owner\OneDrive\CodeStack\Level_3\Lessons\FullStackL\API\obj\Debug\net8.
 C:\Users\Owner\OneDrive\CodeStack\Level_3\Lessons\FullStackL\API\obj\Debug\net8.0\API.pdb
 C:\Users\Owner\OneDrive\CodeStack\Level_3\Lessons\FullStackL\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\Owner\OneDrive\CodeStack\Level_3\Lessons\FullStackL\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\Owner\OneDrive\CodeStack\Level_3\Lessons\FullStackL\API\obj\Debug\net8.0\API.sourcelink.json
