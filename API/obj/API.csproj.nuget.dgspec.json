@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\Lessons\\FullStackL\\API\\API.csproj": {}
+    "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\Lessons\\FullStackL\\API\\API.csproj": {
+    "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\Lessons\\FullStackL\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\Lessons\\FullStackL\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Owner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Owner\\OneDrive\\CodeStack\\Level_3\\Lessons\\FullStackL\\API\\obj\\",
+        "projectPath": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\Flame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Owner\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Flame\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
