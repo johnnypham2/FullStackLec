@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ZagGk7lre/7h6/wSYviDdM/WdiKnUiXMqj6qRu/9m04M6hZPmeWVv0HxNOlG56RV8eHmO2UkywbHWjYiDT5og==",
+  "dgSpecHash": "Azv4uoFPrQ2tHBoFSd8TzyOUHBnHayfScY1aJ/+16HntF4jkC3ITaTosyx9TeeoIfbuGwmI57F2YycuMGqyHbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\Flame\\Desktop\\FullStackL\\api\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Flame\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Flame\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
