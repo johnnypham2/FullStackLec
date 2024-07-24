@@ -4528,11 +4528,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\Flame\\Desktop\\New folder (2)\\FullStackL\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\API.csproj",
+      "projectPath": "C:\\Users\\Flame\\Desktop\\New folder (2)\\FullStackL\\API\\API.csproj",
       "packagesPath": "C:\\Users\\Flame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Flame\\Desktop\\FullStackL\\API\\obj\\",
+      "outputPath": "C:\\Users\\Flame\\Desktop\\New folder (2)\\FullStackL\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Flame\\AppData\\Roaming\\NuGet\\NuGet.Config"

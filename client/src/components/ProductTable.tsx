@@ -12,12 +12,17 @@ import {
   Flex,
   Heading,
   Button,
+  HStack,
+  Avatar,
+  Text,
+  Badge,
 } from "@chakra-ui/react";
 import ColorModeSwitch from "./ColorModeSwitch";
-import { AddIcon } from "@chakra-ui/icons";
+import { AddIcon, DeleteIcon, EditIcon, ViewIcon } from "@chakra-ui/icons";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BASE_URL } from "../constant";
+import ProductSkeleton from "./ProductSkeleton";
 
 interface Product {
   id: number;
@@ -36,7 +41,7 @@ const ProductTable = () => {
   const fetchData = () => {
     setIsLoading(true);
     axios
-      .get(BASE_URL)
+      .get(BASE_URL + "Product")
       .then((response) => {
         setData(response.data);
       })
@@ -53,10 +58,11 @@ const ProductTable = () => {
     fetchData();
   }, []);
 
+if(isLoading) return <ProductSkeleton/>
+
   return (
     <>
       <ColorModeSwitch />
-
       <Box m={32} shadow={"md"} rounded={"md"}>
         <Flex justifyContent={"space-between"} px={"5"}>
           <Heading>Product List</Heading>
@@ -67,7 +73,6 @@ const ProductTable = () => {
 
         <TableContainer>
           <Table variant="striped" colorScheme="teal">
-            <TableCaption>Imperial to metric conversion factors</TableCaption>
             <Thead>
               <Tr>
                 <Th>Id</Th>
@@ -81,25 +86,35 @@ const ProductTable = () => {
               {data.map((product: Product) => (
                 <Tr key={product.id}>
                   <Td>{product.id}</Td>
-                  <Td>{product.name}</Td>
+                  <Td>
+                    <HStack>
+                      <Avatar size={"sm"} name={product.name}/>
+                      <Text>{product.name}</Text>
+                    </HStack>
+                  </Td>
+      
+
                   <Td>{product.description}</Td>
-                  <Td>{product.isInStore}</Td>
+                  <Td>
+
+                    <Badge>{product.isInStore ? "Yes" : "No"}</Badge>
+                  </Td>
                   <Td>{product.price}</Td>
+                  <Td>
+                    <HStack>
+                      <EditIcon boxSize={23} color={"orange.200"}/>
+                      <DeleteIcon boxSize={23} color={"red.400"}/>
+                      <ViewIcon boxSize={23} color={"blue.300"}/>
+                    </HStack>
+                  </Td>
                 </Tr>
               ))}
             </Tbody>
-            <Tfoot>
-              <Tr>
-                <Th>To convert</Th>
-                <Th>into</Th>
-                <Th isNumeric>multiply by</Th>
-              </Tr>
-            </Tfoot>
           </Table>
         </TableContainer>
+        {data.length == 0 && <Heading textAlign={'center'}>No Data</Heading>}
       </Box>
     </>
   );
 };
-
 export default ProductTable;
